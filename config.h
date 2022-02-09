@@ -30,7 +30,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 //	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Brave",    NULL,       NULL,       1 << 5,       0,           -1 },
-	{ "St",       NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Code",       NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "Pcmanfm",  NULL,       NULL,       1 << 3,       0,           -1 },
 };
 
@@ -102,8 +102,8 @@ static Key keys[] = {
 //	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ MODKEY,                       XK_F8,     spawn,          {.v = upvol   } },
-    	{ MODKEY,                       XK_F7,     spawn,          {.v = downvol } },
-    	{ MODKEY,                       XK_F5,     spawn,          {.v = mutevol } },
+	{ MODKEY,                       XK_F7,     spawn,          {.v = downvol } },
+	{ MODKEY,                       XK_F5,     spawn,          {.v = mutevol } },
 };
 
 /* button definitions */
